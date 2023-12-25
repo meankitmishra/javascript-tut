@@ -27,3 +27,13 @@ console.log(Object.values(obj1));
 console.log(Object.entries(obj1));
 
 console.log(obj1.hasOwnProperty(3))
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
