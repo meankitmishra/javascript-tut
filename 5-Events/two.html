@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body>
+    <h1>Chai aur Code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const changeMe = setTimeout(()=>{
+        document.querySelector('h1').innerHTML = "Nice One"
+    },2000)
+    document.querySelector('#stop',(e)=>{
+        clearTimeout(changeMe)
+    })
+</script>
+</html>
