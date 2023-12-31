@@ -1,2 +1,2 @@
 # javascript-tut
-Just revising Javascript
+- Just revising Javascript
